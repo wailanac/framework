@@ -1,1 +1,7 @@
 CSS
+/*SET BELOW HACK IF CONTAINERS DON'T FLOAT CORRECTLY*/
+.clearfix:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
